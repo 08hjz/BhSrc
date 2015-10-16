@@ -5,7 +5,7 @@ menu:
   archives: /archives
   tags: /tags
   #commonweal: /404.html
-  tools: /tools #10.14
+  #tools: /tools #10.14
   about: /about #10.14
 
 # Place your favicon.ico to /source directory.
@@ -22,16 +22,16 @@ rss:
 # Icon fonts
 # Place your font into next/source/fonts, specify directory-name and font-name here
 # Avialable: default | linecons | fifty-shades | feather
-#icon_font: default
+icon_font: default
 #icon_font: fifty-shades
 #icon_font: feather
-icon_font: linecons
+#icon_font: linecons
 #icon_font: icomoon
 
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 
 # MathJax Support
@@ -39,7 +39,7 @@ mathjax: true
 
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 # Sidebar, available value:
