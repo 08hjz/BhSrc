@@ -1,4 +1,4 @@
-title: Github Pages与Hexo搭建一个独立博客（二）
+title: GitHub Pages与Hexo搭建一个独立博客（二）
 date: 2015-10-15 22:28:54
 tags: [Hexo,GitHub,博客]
 categories: 教程 #分类

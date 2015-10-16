@@ -1,4 +1,4 @@
-title: Github Pages与Hexo搭建一个独立博客（一）
+title: GitHub Pages与Hexo搭建一个独立博客（一）
 date: 2015-10-11 23:33:34
 tags: [Hexo,GitHub,博客]
 categories: 教程 #分类
@@ -17,7 +17,9 @@ categories: 教程 #分类
 ## 环境配置
 什么是环境变量？为什么要配置环境变量呢？
 [环境变量](http://baike.baidu.com/view/95930.htm)
+
 ### 安装node.js
+
 Windows下的Node.js 安装配置
 #### 下载node.js安装包
 参见node.js官网[node.js](https://nodejs.org/en/)
@@ -29,7 +31,16 @@ Windows下的Node.js 安装配置
  node -v
 ```
 ### 安装hexo
-
+[Hexo](https://hexo.io/zh-cn/)
+#### 打开cmd运行
+```bash
+ npm install -g hexo-cli
+```
+#### 检查版本
+打开cmd运行
+```bash
+ hexo -v
+```
 ## 注册Github账户
 
 ### 部署本地文件到GitHub

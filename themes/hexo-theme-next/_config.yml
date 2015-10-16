@@ -5,7 +5,7 @@ menu:
   archives: /archives
   tags: /tags
   #commonweal: /404.html
-  #tools: /tools #10.14
+  tools: /tools #10.14
   about: /about #10.14
 
 # Place your favicon.ico to /source directory.

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[努力过四级]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-10-15T14:31:25.157Z</updated>
+  <updated>2015-10-16T20:30:52.195Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Github Pages与Hexo搭建一个独立博客（二）]]></title>
-    <link href="http://yoursite.com/2015/10/15/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
-    <id>http://yoursite.com/2015/10/15/Github-Pages与Hexo搭建一个独立博客（二）/</id>
+    <title><![CDATA[GitHub Pages与Hexo搭建一个独立博客（二）]]></title>
+    <link href="http://yoursite.com/2015/10/15/GitHub-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://yoursite.com/2015/10/15/GitHub-Pages与Hexo搭建一个独立博客（二）/</id>
     <published>2015-10-15T14:28:54.000Z</published>
-    <updated>2015-10-15T14:31:25.157Z</updated>
+    <updated>2015-10-16T20:30:52.195Z</updated>
     <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
 <p><em>快捷方便
@@ -46,11 +46,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Github Pages与Hexo搭建一个独立博客（一）]]></title>
-    <link href="http://yoursite.com/2015/10/11/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
-    <id>http://yoursite.com/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/</id>
+    <title><![CDATA[GitHub Pages与Hexo搭建一个独立博客（一）]]></title>
+    <link href="http://yoursite.com/2015/10/11/GitHub-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2015/10/11/GitHub-Pages与Hexo搭建一个独立博客（一）/</id>
     <published>2015-10-11T15:33:34.000Z</published>
-    <updated>2015-10-16T18:48:00.154Z</updated>
+    <updated>2015-10-16T20:30:55.002Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 </em>Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。</p>
@@ -61,7 +61,10 @@
 <h4 id="下载node-js安装包">下载node.js安装包</h4><p>参见node.js官网<a href="https://nodejs.org/en/" target="_blank" rel="external">node.js</a></p>
 <h4 id="安装（最新安装包默认配置好path变量，无需自行配置）">安装（最新安装包默认配置好path变量，无需自行配置）</h4><p><a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">Node.js 安装配置</a></p>
 <h4 id="检查版本">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p>
-<h3 id="安装hexo">安装hexo</h3><h2 id="注册Github账户">注册Github账户</h2><h3 id="部署本地文件到GitHub">部署本地文件到GitHub</h3>]]></content>
+<h3 id="安装hexo">安装hexo</h3><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></p>
+<h4 id="打开cmd运行">打开cmd运行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h4 id="检查版本-1">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></p>
+<h2 id="注册Github账户">注册Github账户</h2><h3 id="部署本地文件到GitHub">部署本地文件到GitHub</h3>]]></content>
     <summary type="html">
     <![CDATA[<blockquote>
 <p><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
@@ -83,22 +86,22 @@
     <link href="http://yoursite.com/2015/10/11/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%91%A2%EF%BC%9F/"/>
     <id>http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/</id>
     <published>2015-10-11T12:20:34.000Z</published>
-    <updated>2015-10-16T18:47:58.187Z</updated>
+    <updated>2015-10-16T20:00:33.115Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···</li>
+<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···*</li>
 </ul>
 <h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候开始害怕长大···<br>我只知道小时候盼望着长大···<br>即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间到底有多少。</p>
-<h3 id="你真正利用过的时间都在做有意义的事吗？">你真正利用过的时间都在做有意义的事吗？</h3><p>有意义的事？<br>我认为有意义的事是什么吗？<br>的确，从很小的时候开始我们已经对时间有了一个明确的认识，以致于到今日我们也不肯承认自己对时间的忽视。过去的每一天也许你一直在努力，也许你只努力过几天，也许你从来都没有努力，可是就在刚才你已经意识到自己该做应该做的事了。如此说来，在过去的时间里每个人都是幸运的，至少我们都有所收获。</p>
-<h3 id="那么你浪费的时间都去哪了？">那么你浪费的时间都去哪了？</h3><p>我们是在浪费时间中寻找利用时间的借口，而且我们也不是深夜的黑夜里的独行者。</p>
+<h3 id="你真正利用过的时间都在做有意义的事吗？">你真正利用过的时间都在做有意义的事吗？</h3><p>有意义的事？<br>我认为有意义的事是什么？<br>的确，从很小的时候开始我们已经对时间有了一个明确的认识，以致于到今日我们也不肯承认自己对时间的忽视。过去的每一天也许你一直在努力，也许你只努力过几天，也许你从来都没有努力，可是就在刚才你已经意识到自己该做应该做的事了。如此说来，在过去的时间里每个人都是幸运的，至少我们都有所收获。</p>
+<h3 id="那么你浪费的时间都去哪了？">那么你浪费的时间都去哪了？</h3><p>我们是在浪费时间中寻找利用时间的借口，而且我们也不是黑夜里的独行者。</p>
 <h2 id="你学到了那些知识？">你学到了那些知识？</h2><p>理论知识，人生哲理，心灵鸡汤，做人，做事···</p>
-<h3 id="你觉得你学到的那些知识可以使你收益终生？">你觉得你学到的那些知识可以使你收益终生？</h3><p>我学会吃饭我就不会饿死。</p>
+<h3 id="你觉得你学到的那些知识可以使你收益终生？">你觉得你学到的那些知识可以使你收益终生？</h3><p>我学会吃饭，So我就不会饿死。</p>
 <p>More info: <a href="http://www.zhihu.com/question/20448329" target="_blank" rel="external">你觉得受益终生的技能是？</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<ul>
-<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···</li>
+<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···*</li>
 </ul>
-<h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候开]]>
+<h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候]]>
     </summary>
     
       <category term="学习感悟" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
