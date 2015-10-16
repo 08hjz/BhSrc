@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[H.J.Z Blog]]></title>
+  <subtitle><![CDATA[努力过四级]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-10-15T14:31:25.157Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[H.J.Z]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Github Pages与Hexo搭建一个独立博客（二）]]></title>
+    <link href="http://yoursite.com/2015/10/15/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
+    <id>http://yoursite.com/2015/10/15/Github-Pages与Hexo搭建一个独立博客（二）/</id>
+    <published>2015-10-15T14:28:54.000Z</published>
+    <updated>2015-10-15T14:31:25.157Z</updated>
+    <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
+<blockquote>
+<p><em>快捷方便
+</em>容易上手，网上有很好的博客教程</p>
+</blockquote>
+<h2 id="安装Git服务">安装Git服务</h2><h2 id="配置node-js开发环境">配置node.js开发环境</h2><h2 id="安装hexo">安装hexo</h2><h2 id="注册Github账户">注册Github账户</h2><h2 id="部署本地文件到GitHub">部署本地文件到GitHub</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
+<blockquote>
+<p><em>快捷方便
+</em>容易上手，网上有很好的博客教程</p>
+</blockquote>
+<h2 id="安装Git服务">安装Git服务</h]]>
+    </summary>
+    
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Github Pages与Hexo搭建一个独立博客（一）]]></title>
+    <link href="http://yoursite.com/2015/10/11/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>http://yoursite.com/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/</id>
+    <published>2015-10-11T15:33:34.000Z</published>
+    <updated>2015-10-15T14:34:58.375Z</updated>
+    <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
+<blockquote>
+<p><em>快捷方便
+</em>容易上手，网上有很好的博客教程</p>
+</blockquote>
+<h2 id="安装Git服务">安装Git服务</h2><h2 id="配置node-js开发环境">配置node.js开发环境</h2><h2 id="安装hexo">安装hexo</h2><h2 id="注册Github账户">注册Github账户</h2><h2 id="部署本地文件到GitHub">部署本地文件到GitHub</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
+<blockquote>
+<p><em>快捷方便
+</em>容易上手，网上有很好的博客教程</p>
+</blockquote>
+<h2 id="安装Git服务">安装Git服务</h]]>
+    </summary>
+    
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="教程" scheme="http://yoursite.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[为什么要搭建一个博客呢？]]></title>
+    <link href="http://yoursite.com/2015/10/11/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%91%A2%EF%BC%9F/"/>
+    <id>http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/</id>
+    <published>2015-10-11T12:20:34.000Z</published>
+    <updated>2015-10-15T14:31:31.414Z</updated>
+    <content type="html"><![CDATA[<p>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···</p>
+<h2 id="过去的时间到底有多少">过去的时间到底有多少</h2><h3 id="你真正利用过的时间都在做有意义的事吗？">你真正利用过的时间都在做有意义的事吗？</h3><h3 id="那么你浪费的时间都去哪了？">那么你浪费的时间都去哪了？</h3><h2 id="你学到了那些知识">你学到了那些知识</h2><h3 id="你觉得你学到的那些知识可以使你收益终生。">你觉得你学到的那些知识可以使你收益终生。</h3><p>More info: <a href="http://www.zhihu.com/question/20448329" target="_blank" rel="external">你觉得受益终生的技能是？</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究···</p>
+<h2 id="过去的时间到底有多少">过去的时间到底有多少</h2><h3 id="你真正利用过的时间都在做有意义的事吗]]>
+    </summary>
+    
+      <category term="学习感悟" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
