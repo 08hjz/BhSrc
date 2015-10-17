@@ -65,10 +65,14 @@ pagination_dir: page
 ## Themes: http://hexo.io/themes/
 theme: hexo-theme-next
 swiftype_key: "o1D5s7eRnFzm2KAtz494"
+baidu_analytics: d64a4d53ab59b28e81f54eacf5f22880
 #duoshuo
 duoshuo_shortname: 08hjz
 # JiaThis 分享服务
-jiathis: true
+#jiathis: true
+
+# 多说分享服务
+duoshuo_share: true
 since: 2015
 
 

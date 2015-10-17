@@ -4,6 +4,7 @@ menu:
   categories: /categories #10.14
   archives: /archives
   tags: /tags
+  books: /books
   #commonweal: /404.html
   tools: /tools #10.14
   about: /about #10.14
@@ -96,5 +97,7 @@ images: images
 # Theme version
 version: 0.4.5.1
 # JiaThis 分享服务
-jiathis: true
+#jiathis: true
+# 多说分享服务
+duoshuo_share: true
 
