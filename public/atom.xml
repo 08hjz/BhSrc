@@ -4,7 +4,7 @@
   <subtitle><![CDATA[努力过四级]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-10-16T20:58:01.842Z</updated>
+  <updated>2015-10-22T15:31:38.505Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,13 +19,13 @@
     <link href="http://yoursite.com/2015/10/15/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/15/Github-Pages与Hexo搭建一个独立博客（二）/</id>
     <published>2015-10-15T14:28:54.000Z</published>
-    <updated>2015-10-16T20:58:01.842Z</updated>
+    <updated>2015-10-22T15:31:38.505Z</updated>
     <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
 <p><em>快捷方便
 </em>容易上手，网上有很好的博客教程</p>
 </blockquote>
-<h2 id="安装Git服务">安装Git服务</h2><h2 id="配置node-js开发环境">配置node.js开发环境</h2><h2 id="安装hexo">安装hexo</h2><h2 id="注册Github账户">注册Github账户</h2><h2 id="部署本地文件到GitHub">部署本地文件到GitHub</h2>]]></content>
+<h2 id="安装Git服务">安装Git服务</h2><h2 id="安装hexo">安装hexo</h2><h2 id="登录GitHub">登录GitHub</h2><h2 id="建立项目">建立项目</h2>]]></content>
     <summary type="html">
     <![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
@@ -50,29 +50,31 @@
     <link href="http://yoursite.com/2015/10/11/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/</id>
     <published>2015-10-11T15:33:34.000Z</published>
-    <updated>2015-10-22T05:07:00.679Z</updated>
+    <updated>2015-10-22T15:31:45.177Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 </em>Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。</p>
 </blockquote>
 <h2 id="为什么要用静态博客？">为什么要用静态博客？</h2><p>1.跨平台同步文件<br>2.系统简单易懂, 毫不臃肿, 方便改版<br>3.众多第三方应用, 容易做自定义功能扩展<br>4.纯静态, 极低的服务器压力<br>5.最重要使用 Markdown 标记语法, 迁移什么的都非常方便<br>6.能够托管在 Github 上</p>
-<h2 id="环境配置">环境配置</h2><p>什么是环境变量？为什么要配置环境变量呢？<br><a href="http://baike.baidu.com/view/95930.htm" target="_blank" rel="external">环境变量</a></p>
+<h2 id="环境配置">环境配置</h2><p>什么是环境变量？<br>为什么要配置环境变量呢？<br>简单的说吧，就比如说你要写篇日记那么问题是你首先得准备好一个笔记本一样。更深层次请自行谷歌或度娘科普。<br><a href="http://baike.baidu.com/view/95930.htm" target="_blank" rel="external">环境变量</a></p>
 <h3 id="安装node-js">安装node.js</h3><p>Windows下的Node.js 安装配置</p>
-<h4 id="下载node-js安装包">下载node.js安装包</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js官网</a><br><a href="http://nodejs.org/dist/v0.10.26/node-v0.10.26-x86.msi" target="_blank" rel="external">32 位安装包下载地址:</a><br><a href="http://nodejs.org/dist/v0.10.26/x64/node-v0.10.26-x64.msi" target="_blank" rel="external">64 位安装包下载地址:</a></p>
-<h4 id="安装（最新安装包默认配置好path变量，无需自行配置）">安装（最新安装包默认配置好path变量，无需自行配置）</h4><h5 id="安装步骤：">安装步骤：</h5><p>步骤 1 : 双击下载后的安装包 node-v0.10.26-x86.msi，如下所示：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png" alt="step1"></p>
-<p>步骤 2 : 点击以上的Run(运行)，将出现如下界面：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png" alt="step2"></p>
-<p>步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png" alt="step3"></p>
-<p>步骤 4 : Node.js默认安装目录为 “C:\Program Files\nodejs\” , 你可以修改目录，并点击 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png" alt="step4"></p>
-<p>步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt="step5"></p>
-<p>步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt="step6"></p>
-<p>安装过程：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png" alt="step7"></p>
-<p>点击 Finish（完成）按钮退出安装向导。<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png" alt="step7"></p>
+<h4 id="下载node-js安装包">下载node.js安装包</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js官网</a><br><a href="https://nodejs.org/dist/v4.2.1/" target="_blank" rel="external">node.js下载地址</a></p>
+<h4 id="安装（最新安装包默认配置好path变量，无需自行配置）">安装（最新安装包默认配置好path变量，无需自行配置）</h4><h5 id="安装步骤：">安装步骤：</h5><p>步骤 1 : 双击下载后的安装包 node-v4.1.2-x64.msi，如下所示：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png" alt=""></p>
+<p>步骤 2 : 点击以上的Run(运行)，将出现如下界面：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png" alt=""></p>
+<p>步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png" alt=""></p>
+<p>步骤 4 : Node.js默认安装目录为 “C:\Program Files\nodejs\” , 你可以修改目录，并点击 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png" alt=""></p>
+<p>步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt=""></p>
+<p>步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt=""></p>
+<p>安装过程：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png" alt=""></p>
+<p>点击 Finish（完成）按钮退出安装向导。<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png" alt=""></p>
 <h4 id="检查版本">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p>
 <h3 id="安装hexo">安装hexo</h3><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></p>
 <h4 id="打开cmd运行">打开cmd运行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <h4 id="检查版本-1">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></p>
-<h2 id="注册Github账户">注册Github账户</h2><h3 id="进入github官网"><a href="https://github.com/" target="_blank" rel="external">进入github官网</a></h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png" alt="step1"></p>
-<h3 id="注册帐号(按步骤进行)">注册帐号(按步骤进行)</h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt="step2"></p>
+<h2 id="注册GitHub账户">注册GitHub账户</h2><h3 id="进入gitHub官网">进入gitHub官网</h3><p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
+<p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png" alt=""></p>
+<h3 id="注册帐号(按步骤进行)">注册帐号(按步骤进行)</h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt=""></p>
+<h3 id="登录GitHub">登录GitHub</h3><p>关于GitHub请自行科普。<br><a href="http://www.yangzhiping.com/tech/github.html" target="_blank" rel="external">如何高效利用GitHub</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<blockquote>
@@ -95,9 +97,9 @@
     <link href="http://yoursite.com/2015/10/11/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%91%A2%EF%BC%9F/"/>
     <id>http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/</id>
     <published>2015-10-11T12:20:34.000Z</published>
-    <updated>2015-10-22T05:09:05.434Z</updated>
+    <updated>2015-10-22T15:30:33.465Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· *</li>
+<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· </li>
 </ul>
 <h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候开始害怕长大···<br>我只知道小时候盼望着长大···<br>即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间到底有多少。</p>
 <h3 id="你真正利用过的时间都在做有意义的事吗？">你真正利用过的时间都在做有意义的事吗？</h3><p>有意义的事？<br>我认为有意义的事是什么？<br>的确，从很小的时候开始我们已经对时间有了一个明确的认识，以致于到今日我们也不肯承认自己对时间的忽视。过去的每一天也许你一直在努力，也许你只努力过几天，也许你从来都没有努力，可是就在刚才你已经意识到自己该做应该做的事了。如此说来，在过去的时间里每个人都是幸运的，至少我们都有所收获。</p>
@@ -108,9 +110,9 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<ul>
-<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· *</li>
+<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· </li>
 </ul>
-<h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时]]>
+<h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候]]>
     </summary>
     
       <category term="学习感悟" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0%E6%84%9F%E6%82%9F/"/>

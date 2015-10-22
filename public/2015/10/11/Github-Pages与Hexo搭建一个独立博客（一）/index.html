@@ -65,7 +65,7 @@ Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态�
 <meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png">
 <meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png">
 <meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png">
-<meta property="og:updated_time" content="2015-10-22T05:07:00.679Z">
+<meta property="og:updated_time" content="2015-10-22T15:31:45.177Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitHub Pages与Hexo搭建一个独立博客（一）">
 <meta name="twitter:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
@@ -113,7 +113,7 @@ Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态�
     <div class="headband"></div>
 
     <!--- add Fork me on Github -->
-    <a href="https://github.com/08hjz"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Hello,Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>
+     <!--- <a href="https://github.com/08hjz"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Hello,Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png"></a>-->
    <!--- add Fork me on Github -->
 
 
@@ -306,23 +306,25 @@ Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态�
 </em>Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。</p>
 </blockquote>
 <h2 id="为什么要用静态博客？">为什么要用静态博客？</h2><p>1.跨平台同步文件<br>2.系统简单易懂, 毫不臃肿, 方便改版<br>3.众多第三方应用, 容易做自定义功能扩展<br>4.纯静态, 极低的服务器压力<br>5.最重要使用 Markdown 标记语法, 迁移什么的都非常方便<br>6.能够托管在 Github 上</p>
-<h2 id="环境配置">环境配置</h2><p>什么是环境变量？为什么要配置环境变量呢？<br><a href="http://baike.baidu.com/view/95930.htm" target="_blank" rel="external">环境变量</a></p>
+<h2 id="环境配置">环境配置</h2><p>什么是环境变量？<br>为什么要配置环境变量呢？<br>简单的说吧，就比如说你要写篇日记那么问题是你首先得准备好一个笔记本一样。更深层次请自行谷歌或度娘科普。<br><a href="http://baike.baidu.com/view/95930.htm" target="_blank" rel="external">环境变量</a></p>
 <h3 id="安装node-js">安装node.js</h3><p>Windows下的Node.js 安装配置</p>
-<h4 id="下载node-js安装包">下载node.js安装包</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js官网</a><br><a href="http://nodejs.org/dist/v0.10.26/node-v0.10.26-x86.msi" target="_blank" rel="external">32 位安装包下载地址:</a><br><a href="http://nodejs.org/dist/v0.10.26/x64/node-v0.10.26-x64.msi" target="_blank" rel="external">64 位安装包下载地址:</a></p>
-<h4 id="安装（最新安装包默认配置好path变量，无需自行配置）">安装（最新安装包默认配置好path变量，无需自行配置）</h4><h5 id="安装步骤：">安装步骤：</h5><p>步骤 1 : 双击下载后的安装包 node-v0.10.26-x86.msi，如下所示：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png" alt="step1"></p>
-<p>步骤 2 : 点击以上的Run(运行)，将出现如下界面：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png" alt="step2"></p>
-<p>步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png" alt="step3"></p>
-<p>步骤 4 : Node.js默认安装目录为 “C:\Program Files\nodejs\” , 你可以修改目录，并点击 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png" alt="step4"></p>
-<p>步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt="step5"></p>
-<p>步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt="step6"></p>
-<p>安装过程：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png" alt="step7"></p>
-<p>点击 Finish（完成）按钮退出安装向导。<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png" alt="step7"></p>
+<h4 id="下载node-js安装包">下载node.js安装包</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="external">node.js官网</a><br><a href="https://nodejs.org/dist/v4.2.1/" target="_blank" rel="external">node.js下载地址</a></p>
+<h4 id="安装（最新安装包默认配置好path变量，无需自行配置）">安装（最新安装包默认配置好path变量，无需自行配置）</h4><h5 id="安装步骤：">安装步骤：</h5><p>步骤 1 : 双击下载后的安装包 node-v4.1.2-x64.msi，如下所示：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png" alt=""></p>
+<p>步骤 2 : 点击以上的Run(运行)，将出现如下界面：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png" alt=""></p>
+<p>步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png" alt=""></p>
+<p>步骤 4 : Node.js默认安装目录为 “C:\Program Files\nodejs\” , 你可以修改目录，并点击 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png" alt=""></p>
+<p>步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt=""></p>
+<p>步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png" alt=""></p>
+<p>安装过程：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png" alt=""></p>
+<p>点击 Finish（完成）按钮退出安装向导。<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png" alt=""></p>
 <h4 id="检查版本">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p>
 <h3 id="安装hexo">安装hexo</h3><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a></p>
 <h4 id="打开cmd运行">打开cmd运行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <h4 id="检查版本-1">检查版本</h4><p>打开cmd运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></p>
-<h2 id="注册Github账户">注册Github账户</h2><h3 id="进入github官网"><a href="https://github.com/" target="_blank" rel="external">进入github官网</a></h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png" alt="step1"></p>
-<h3 id="注册帐号(按步骤进行)">注册帐号(按步骤进行)</h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt="step2"></p>
+<h2 id="注册GitHub账户">注册GitHub账户</h2><h3 id="进入gitHub官网">进入gitHub官网</h3><p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
+<p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png" alt=""></p>
+<h3 id="注册帐号(按步骤进行)">注册帐号(按步骤进行)</h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt=""></p>
+<h3 id="登录GitHub">登录GitHub</h3><p>关于GitHub请自行科普。<br><a href="http://www.yangzhiping.com/tech/github.html" target="_blank" rel="external">如何高效利用GitHub</a></p>
 </span>
       
     </div>
@@ -509,7 +511,7 @@ Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态�
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用静态博客？"><span class="nav-number">1.</span> <span class="nav-text">为什么要用静态博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境配置"><span class="nav-number">2.</span> <span class="nav-text">环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装node.js</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#下载node-js安装包"><span class="nav-number">2.1.1.</span> <span class="nav-text">下载node.js安装包</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装（最新安装包默认配置好path变量，无需自行配置）"><span class="nav-number">2.1.2.</span> <span class="nav-text">安装（最新安装包默认配置好path变量，无需自行配置）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#安装步骤："><span class="nav-number">2.1.2.1.</span> <span class="nav-text">安装步骤：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#检查版本"><span class="nav-number">2.1.3.</span> <span class="nav-text">检查版本</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">2.2.</span> <span class="nav-text">安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#打开cmd运行"><span class="nav-number">2.2.1.</span> <span class="nav-text">打开cmd运行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#检查版本-1"><span class="nav-number">2.2.2.</span> <span class="nav-text">检查版本</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注册Github账户"><span class="nav-number">3.</span> <span class="nav-text">注册Github账户</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#进入github官网"><span class="nav-number">3.1.</span> <span class="nav-text">进入github官网</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注册帐号(按步骤进行)"><span class="nav-number">3.2.</span> <span class="nav-text">注册帐号(按步骤进行)</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用静态博客？"><span class="nav-number">1.</span> <span class="nav-text">为什么要用静态博客？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环境配置"><span class="nav-number">2.</span> <span class="nav-text">环境配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装node-js"><span class="nav-number">2.1.</span> <span class="nav-text">安装node.js</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#下载node-js安装包"><span class="nav-number">2.1.1.</span> <span class="nav-text">下载node.js安装包</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装（最新安装包默认配置好path变量，无需自行配置）"><span class="nav-number">2.1.2.</span> <span class="nav-text">安装（最新安装包默认配置好path变量，无需自行配置）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#安装步骤："><span class="nav-number">2.1.2.1.</span> <span class="nav-text">安装步骤：</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#检查版本"><span class="nav-number">2.1.3.</span> <span class="nav-text">检查版本</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装hexo"><span class="nav-number">2.2.</span> <span class="nav-text">安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#打开cmd运行"><span class="nav-number">2.2.1.</span> <span class="nav-text">打开cmd运行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#检查版本-1"><span class="nav-number">2.2.2.</span> <span class="nav-text">检查版本</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#注册GitHub账户"><span class="nav-number">3.</span> <span class="nav-text">注册GitHub账户</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#进入gitHub官网"><span class="nav-number">3.1.</span> <span class="nav-text">进入gitHub官网</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#注册帐号(按步骤进行)"><span class="nav-number">3.2.</span> <span class="nav-text">注册帐号(按步骤进行)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#登录GitHub"><span class="nav-number">3.3.</span> <span class="nav-text">登录GitHub</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>

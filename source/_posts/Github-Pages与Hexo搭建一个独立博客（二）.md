@@ -10,15 +10,11 @@ categories: 教程 #分类
 
 ## 安装Git服务
 
-
-## 配置node.js开发环境
-
-
 ## 安装hexo
 
+## 登录GitHub
 
-## 注册Github账户
+## 建立项目
 
-## 部署本地文件到GitHub
 
 

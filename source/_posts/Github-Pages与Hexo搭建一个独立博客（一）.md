@@ -15,7 +15,9 @@ categories: 教程 #分类
 6.能够托管在 Github 上
 
 ## 环境配置
-什么是环境变量？为什么要配置环境变量呢？
+什么是环境变量？
+为什么要配置环境变量呢？
+简单的说吧，就比如说你要写篇日记那么问题是你首先得准备好一个笔记本一样。更深层次请自行谷歌或度娘科普。
 [环境变量](http://baike.baidu.com/view/95930.htm)
 
 ### 安装node.js
@@ -23,33 +25,33 @@ categories: 教程 #分类
 Windows下的Node.js 安装配置
 #### 下载node.js安装包
 [node.js官网](https://nodejs.org/en/)
-[32 位安装包下载地址:](http://nodejs.org/dist/v0.10.26/node-v0.10.26-x86.msi)
-[64 位安装包下载地址:](http://nodejs.org/dist/v0.10.26/x64/node-v0.10.26-x64.msi)
+[node.js下载地址](https://nodejs.org/dist/v4.2.1/)
+
 #### 安装（最新安装包默认配置好path变量，无需自行配置）
 ##### 安装步骤：
-步骤 1 : 双击下载后的安装包 node-v0.10.26-x86.msi，如下所示：
-![step1](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png)
+步骤 1 : 双击下载后的安装包 node-v4.1.2-x64.msi，如下所示：
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png)
 
 步骤 2 : 点击以上的Run(运行)，将出现如下界面：
-![step2](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png)
 
 步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :
-![step3](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png)
 
 步骤 4 : Node.js默认安装目录为 "C:\Program Files\nodejs\" , 你可以修改目录，并点击 next（下一步）
-![step4](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png)
 
 步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）
-![step5](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
 
 步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：
-![step6](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
 
 安装过程：
-![step7](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png)
 
 点击 Finish（完成）按钮退出安装向导。
-![step7](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png)
 
 #### 检查版本
 打开cmd运行
@@ -67,11 +69,17 @@ Windows下的Node.js 安装配置
 ```bash
  hexo -v
 ```
-## 注册Github账户
+## 注册GitHub账户
 
-### [进入github官网](https://github.com/)
-![step1](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png)
+### 进入gitHub官网
+[https://github.com/](https://github.com/)
+
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png)
 
 ### 注册帐号(按步骤进行)
-![step2](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png)
+
+### 登录GitHub
+关于GitHub请自行科普。
+[如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
 
