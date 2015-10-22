@@ -22,9 +22,35 @@ categories: 教程 #分类
 
 Windows下的Node.js 安装配置
 #### 下载node.js安装包
-参见node.js官网[node.js](https://nodejs.org/en/)
+[node.js官网](https://nodejs.org/en/)
+[32 位安装包下载地址:](http://nodejs.org/dist/v0.10.26/node-v0.10.26-x86.msi)
+[64 位安装包下载地址:](http://nodejs.org/dist/v0.10.26/x64/node-v0.10.26-x64.msi)
 #### 安装（最新安装包默认配置好path变量，无需自行配置）
-[Node.js 安装配置](http://www.runoob.com/nodejs/nodejs-install-setup.html)
+##### 安装步骤：
+步骤 1 : 双击下载后的安装包 node-v0.10.26-x86.msi，如下所示：
+![step1](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step1.png)
+
+步骤 2 : 点击以上的Run(运行)，将出现如下界面：
+![step2](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step2.png)
+
+步骤 3 : 勾选接受协议选项，点击 next（下一步） 按钮 :
+![step3](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step3.png)
+
+步骤 4 : Node.js默认安装目录为 "C:\Program Files\nodejs\" , 你可以修改目录，并点击 next（下一步）
+![step4](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step4.png)
+
+步骤 5 : 点击树形图标来选择你需要的安装模式 , 然后点击下一步 next（下一步）
+![step5](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
+
+步骤 6 :点击 Install（安装） 开始安装Node.js。你也可以点击 Back（返回）来修改先前的配置。 然后并点击 next（下一步）：
+![step6](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step5.png)
+
+安装过程：
+![step7](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step7.png)
+
+点击 Finish（完成）按钮退出安装向导。
+![step7](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png)
+
 #### 检查版本
 打开cmd运行
 ```bash
@@ -43,6 +69,9 @@ Windows下的Node.js 安装配置
 ```
 ## 注册Github账户
 
-### 部署本地文件到GitHub
+### [进入github官网](https://github.com/)
+![step1](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png)
 
+### 注册帐号(按步骤进行)
+![step2](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png)
 
