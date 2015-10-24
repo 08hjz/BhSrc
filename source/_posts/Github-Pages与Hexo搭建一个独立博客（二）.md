@@ -7,12 +7,20 @@ categories: 教程 #分类
 
 >*快捷方便
 >*容易上手，网上有很好的博客教程
+## 注册GitHub账户
 
-## 安装Git服务
+### 进入gitHub官网
+[https://github.com/](https://github.com/)
 
-## 安装hexo
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png)
 
-## 登录GitHub
+### 注册帐号(按步骤进行)
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png)
+
+### 登录GitHub
+关于GitHub请自行科普。
+[如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
+
 
 ## 建立项目
 

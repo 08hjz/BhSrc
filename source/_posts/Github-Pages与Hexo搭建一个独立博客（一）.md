@@ -20,6 +20,27 @@ categories: 教程 #分类
 简单的说吧，就比如说你要写篇日记那么问题是你首先得准备好一个笔记本一样。更深层次请自行谷歌或度娘科普。
 [环境变量](http://baike.baidu.com/view/95930.htm)
 
+
+### 安装Git服务
+
+#### 关于Git服务，推荐两个不错的教程
+* [Git教程- 廖雪峰的官方网站](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CBwQFjAAahUKEwjekZeasNvIAhXTbY4KHT1wB58&url=http%3A%2F%2Fwww.liaoxuefeng.com%2Fwiki%2F0013739516305929606dd18361248578c67b8067c8c017b000&usg=AFQjCNE35ZvBdCzmGRClI_qKkO_sYatr4A)
+*  [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+
+#### Windows：下载并安装git
+推荐使用cmderer，因为cmderer自带了msysgit使用更加方便.
+* [cmder官网下载地址](http://cmderer.net/)
+- [cmder百度云下载地址](http://pan.baidu.com/s/1FjZum) 访问密码: `` qfdi ``
+
++ 添加右键cmder [cmder简单介绍及配置](http://bg.biedalian.com/2014/09/11/cmderer.html)
+##### 检查git版本
+打开cmder运行
+```bash
+ git
+```
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1024git.png)
+
+
 ### 安装node.js
 
 Windows下的Node.js 安装配置
@@ -54,32 +75,21 @@ Windows下的Node.js 安装配置
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022install-node-msi-version-on-windows-step8.png)
 
 #### 检查版本
-打开cmd运行
+打开cmder运行
 ```bash
  node -v
 ```
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1024nodejs.png)
+
 ### 安装hexo
 [Hexo](https://hexo.io/zh-cn/)
-#### 打开cmd运行
+#### 打开cmder运行
 ```bash
  npm install -g hexo-cli
 ```
 #### 检查版本
-打开cmd运行
+打开cmder运行
 ```bash
  hexo -v
 ```
-## 注册GitHub账户
-
-### 进入gitHub官网
-[https://github.com/](https://github.com/)
-
-![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png)
-
-### 注册帐号(按步骤进行)
-![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png)
-
-### 登录GitHub
-关于GitHub请自行科普。
-[如何高效利用GitHub](http://www.yangzhiping.com/tech/github.html)
-
+![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1024hexo.png)
