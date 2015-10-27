@@ -4,7 +4,7 @@
   <subtitle><![CDATA[努力过四级]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-10-24T15:59:31.788Z</updated>
+  <updated>2015-10-26T05:42:42.223Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[windows删除文件报错The source filename are larger than is supported by the file system]]></title>
+    <link href="http://yoursite.com/2015/10/26/%E8%A7%A3%E5%86%B3%E6%BA%90%E6%96%87%E4%BB%B6%E5%90%8D%E9%95%BF%E5%BA%A6%E5%A4%A7%E4%BA%8E%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9A%84%E9%95%BF%E5%BA%A6%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/10/26/解决源文件名长度大于文件系统支持的长度问题/</id>
+    <published>2015-10-26T05:10:58.000Z</published>
+    <updated>2015-10-26T05:42:42.223Z</updated>
+    <content type="html"><![CDATA[<h2 id="Error：The_source_filename_are_larger_than_is_supported_by_the_file_system···">Error：The source filename are larger than is supported by the file system···</h2><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026delete_file.png" alt=""></p>
+<h2 id="解决方法：">解决方法：</h2><blockquote>
+<p>you want to delete a tree <code>D:\very\long\path</code>, you don’t necessarily need to use any tools such as Robocopy.</p>
+<ul>
+<li>Go to the root directory of the drive which contains the directory which you can’t delete</li>
+<li>Create a directory with a single letter name, eg <code>D:\a</code>,Navigate to inside the directory that you want to delete, in this case<code>D:\very\long\path</code></li>
+<li>Select all (<code>Ctrl+A</code>) and Cut (<code>Ctrl-X</code>)</li>
+<li>Navigate to the folder you just createdPaste (<code>Ctrl-V</code>)</li>
+<li>now, move up to the root directory and delete the temp folder, in this case<code>D:\a</code></li>
+<li>Then go back and delete the original directory</li>
+</ul>
+</blockquote>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="Error：The_source_filename_are_larger_than_is_supported_by_the_file_system···">Error：The source filename are larger than is supported]]>
+    </summary>
+    
+      <category term="Windows" scheme="http://yoursite.com/tags/Windows/"/>
+    
+      <category term="Windows" scheme="http://yoursite.com/categories/Windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[GitHub Pages与Hexo搭建一个独立博客（二）]]></title>
     <link href="http://yoursite.com/2015/10/15/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/15/Github-Pages与Hexo搭建一个独立博客（二）/</id>
     <published>2015-10-15T14:28:54.000Z</published>
-    <updated>2015-10-24T15:59:31.788Z</updated>
+    <updated>2015-10-26T03:55:32.571Z</updated>
     <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
 <p><em>快捷方便
@@ -53,7 +82,7 @@
     <link href="http://yoursite.com/2015/10/11/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/</id>
     <published>2015-10-11T15:33:34.000Z</published>
-    <updated>2015-10-25T16:04:53.229Z</updated>
+    <updated>2015-10-26T06:36:24.823Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 </em>Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。</p>
@@ -95,109 +124,116 @@
 <h4 id="Hexo建站">Hexo建站</h4><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件,如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
 <p>新建完成后，指定文件夹的目录如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── scripts</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure></p>
 <ul>
-<li><p>_config.yml<br>网站的 配置 信息，您可以在此配置大部分的参数。</p>
+<li><p><strong>_config.yml</strong><br>网站的 配置 信息，您可以在此配置大部分的参数。</p>
 </li>
-<li><p>package.json<br>应用程序的信息。EJS, Stylus 和 Markdown renderer 已默认安装，您可以自由移除。</p>
+<li><p><strong>package.json</strong><br>应用程序的信息。EJS, Stylus 和 Markdown renderer 已默认安装，您可以自由移除。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">package.json</span><br><span class="line">&#123;</span><br><span class="line">  <span class="string">"name"</span>: <span class="string">"hexo-site"</span>,</span><br><span class="line">  <span class="string">"version"</span>: <span class="string">""</span>,</span><br><span class="line">  <span class="string">"private"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="string">"hexo"</span>: &#123;</span><br><span class="line">    <span class="string">"version"</span>: <span class="string">""</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="string">"dependencies"</span>: &#123;</span><br><span class="line">    <span class="string">"hexo-renderer-ejs"</span>: <span class="string">"*"</span>,</span><br><span class="line">    <span class="string">"hexo-renderer-stylus"</span>: <span class="string">"*"</span>,</span><br><span class="line">    <span class="string">"hexo-renderer-marked"</span>: <span class="string">"*"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>scaffolds<br>模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p>
+<li><p><strong>scaffolds</strong><br>模版 文件夹。当您新建文章时，Hexo 会根据 scaffold 来建立文件。</p>
 </li>
-<li><p>scripts<br>脚本 文件夹。脚本是扩展 Hexo 最简易的方式，在此文件夹内的 JavaScript 文件会被自动执行。</p>
+<li><p><strong>scripts</strong><br>脚本 文件夹。脚本是扩展 Hexo 最简易的方式，在此文件夹内的 JavaScript 文件会被自动执行。</p>
 </li>
-<li><p>source<br>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</p>
+<li><p><strong>source</strong><br>资源文件夹是存放用户资源的地方。除 <em>posts 文件夹之外，开头命名为 </em> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。Markdown 和 HTML 文件会被解析并放到 public 文件夹，而其他文件会被拷贝过去。</p>
 </li>
-<li><p>themes<br>主题 文件夹。Hexo 会根据主题来生成静态页面。</p>
+<li><p><strong>themes</strong><br>主题 文件夹。Hexo 会根据主题来生成静态页面。</p>
 <h4 id="配置">配置</h4><p><a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">参见hexo配置</a><br>您可以在 <code>_config.yml</code> 中修改大部份的配置。</p>
-<h4 id="命令">命令</h4></li>
-<li>init<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init [folder]</span><br></pre></td></tr></table></figure>
+<h4 id="常用命令">常用命令</h4></li>
+<li><strong>init</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init [folder]</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。</p>
 <ul>
-<li>new<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
+<li><strong>new</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代替。如果标题包含空格的话，请使用引号括起来。</p>
 <ul>
-<li>generate<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<li><strong>generate</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo g <span class="comment">#缩写</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>生成静态文件。</p>
 <table>
 <thead>
 <tr>
-<th>选项</th>
-<th>描述</th>
+<th style="text-align:center">选项</th>
+<th style="text-align:center">描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>-d, --deploy</code></td>
-<td>文件生成后立即部署网站</td>
-<td></td>
+<td style="text-align:center"><code>-d, --deploy</code></td>
+<td style="text-align:center">文件生成后立即部署网站</td>
 </tr>
 <tr>
-<td><code>-w, --watch</code></td>
-<td>监视文件变动</td>
-<td></td>
+<td style="text-align:center"><code>-w, --watch</code></td>
+<td style="text-align:center">监视文件变动</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>publish<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo publish [layout] &lt;filename&gt;</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>发表草稿。</p>
-<ul>
-<li>server<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+<li><strong>server</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line">hexo s <span class="comment">#缩写</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>启动服务器。</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:right">选项</th>
+<th style="text-align:center">选项</th>
 <th style="text-align:center">描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right"><code>-p, --port</code></td>
+<td style="text-align:center"><code>-p, --port</code></td>
 <td style="text-align:center">重设端口</td>
-<td></td>
 </tr>
 <tr>
-<td style="text-align:right"><code>-s,--static</code></td>
+<td style="text-align:center"><code>-s,--static</code></td>
 <td style="text-align:center">只使用静态文件</td>
-<td></td>
 </tr>
 <tr>
-<td style="text-align:right"><code>-l, --log</code></td>
+<td style="text-align:center"><code>-l, --log</code></td>
 <td style="text-align:center">启动日记记录，或覆盖记录格式</td>
-<td></td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>deploy<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<li><strong>deploy</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>部署网站。</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:right">参数</th>
-<th style="text-align:right">描述</th>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right"><code>-g, --generate</code></td>
-<td style="text-align:right">部署网站前，需要预先生成静态文件</td>
-<td></td>
+<td style="text-align:center"><code>-g, --generate</code></td>
+<td style="text-align:center">部署网站前，需要预先生成静态文件</td>
 </tr>
 </tbody>
 </table>
+<ul>
+<li><strong>clean</strong><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>清除缓存文件 (<code>db.json</code>) 和已生成的静态文件 (<code>public</code>)。</p>
+<h4 id="本地运行">本地运行</h4><ul>
+<li><strong>新建目录</strong><code>...\Hexo--test</code></li>
+<li><p><strong>在当前目录下打开cmder，运行</strong><code>hexo init</code><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026hexo_init.png" alt=""><br>返回当前目录查看文件目录，如下：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026tree.png" alt=""></p>
+</li>
+<li><p><strong>在cmder运行</strong><code>hexo g</code><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026hexo_g.png" alt=""><br>返回当前目录查看文件目录，如下(<code>public</code>目录为<code>hexo g</code>生成)：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026g.png" alt=""></p>
+</li>
+<li><p><strong>在cmder运行</strong><code>hexo s</code><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026hexos.png" alt=""></p>
+</li>
+<li><p><strong>打开浏览器输入</strong><code>127.0.0.1:4000</code><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026hexo.png" alt=""></p>
+</li>
+<li><p><strong>至此本地文件建立完成</strong></p>
+</li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[<blockquote>
@@ -220,7 +256,7 @@
     <link href="http://yoursite.com/2015/10/11/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%91%A2%EF%BC%9F/"/>
     <id>http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/</id>
     <published>2015-10-11T12:20:34.000Z</published>
-    <updated>2015-10-22T15:30:33.465Z</updated>
+    <updated>2015-10-26T03:55:32.571Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· </li>
 </ul>
