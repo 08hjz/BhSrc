@@ -4,7 +4,7 @@
   <subtitle><![CDATA[努力过四级]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-10-31T12:50:36.457Z</updated>
+  <updated>2015-10-31T14:20:05.579Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2015/10/31/%E5%A4%A7%E7%99%BD%E8%8F%9CU%E7%9B%98%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88Windows/"/>
     <id>http://yoursite.com/2015/10/31/大白菜U盘安装原版Windows/</id>
     <published>2015-10-31T05:17:03.000Z</published>
-    <updated>2015-10-31T12:50:36.457Z</updated>
+    <updated>2015-10-31T14:20:05.579Z</updated>
     <content type="html"><![CDATA[<p>应朋友的邀请帮忙解释一下怎么安装windows系统，所以才找了几篇不错的教程合成了这篇，希望能够有用。</p>
 <h2 id="大白菜U盘启动盘制作V5-1">大白菜U盘启动盘制作V5.1</h2><blockquote>
 <p>参考资料：<a href="http://www.winbaicai.com//help_434.html" target="_blank" rel="external">大白菜5.1版 制作启动U盘</a><br>准备工作：U盘一个，建议8G左右</p>
@@ -41,7 +41,177 @@
 <embed src="http://player.youku.com/player.php/sid/XODkxMDQ1ODYw/v.swf" allowfullscreen="true" quality="high" width="480" height="400" align="middle" allowscriptaccess="always" type="application/x-shockwave-flash">
 
 <h3 id="利用快捷键设置Bois从U盘启动">利用快捷键设置Bois从U盘启动</h3><p>总的来讲，设置电脑从U盘启动一共有两种方法，第一种是开机时候按快捷键然后选择U盘启动，第二种进Bios然后设置U盘为第一启动项（点击查看）。本文介绍下利用快捷键来设置U盘启动，利用快捷键启动相对来说比较简单快捷，推荐大家使用（但是如果你的电脑是没有热键选择启动项功能的，建议你第二种方法来设置了。）(重要提醒：选择热键前，请先插入U盘)</p>
-<p><strong>附表</strong><br>|主板品牌|启动按键| 笔记本品牌|启动按键|台式机品牌|启动按键|<br>|:—–:|:—–:|:—–:|:—–:|:—–:|:—–:|<br>|华硕主板|    F8|    联想笔记本|    F12    |联想台式机|    F12|<br>|技嘉主板|    F12|    宏基笔记本|    F12|    惠普台式机|    F12|<br>|微星主板|    F11|    华硕笔记本|    ESC|    宏基台式机|    F12|<br>|映泰主板|    F9|    惠普笔记本|    F9|    戴尔台式机|    ESC|<br>|梅捷主板|    ESC或F12|    联想Thinkpad|    F12|    神舟台式机|    F12|<br>|七彩虹主板|    ESC或F11|    戴尔笔记本|    F12|    华硕台式机|    F8|<br>|华擎主板|    F11|    神舟笔记本|    F12|    方正台式机|    F12|<br>|斯巴达卡主板|    ESC|    东芝笔记本|    F12|    清华同方台式机|    F12|<br>|昂达主板|    F11|    三星笔记本|    F12|    海尔台式机|    F12|<br>|双敏主板|    ESC|    IBM笔记本|    F12|    明基台式机|    F8|<br>|翔升主板|    F10|富士通笔记本|    F12|<br>|精英主板|    ESC或F11|    海尔笔记本|    F12    |<br>|冠盟主板|    F11或F12|    方正笔记本|    F12    |<br>|富士康主板|    ESC或F12|    清华同方笔记本|    F12|<br>|顶星主板|    F11或F12|    微星笔记本|    F11|<br>|铭瑄主板|    ESC|    明基笔记本|    F9|<br>|盈通主板|    F8|    技嘉笔记本|    F12<br>|捷波主板|    ESC|    Gateway笔记本|    F12     |<br>|Intel主板|    F12|eMachines笔记本|    F12    |<br>|杰微主板|    ESC或F8|    索尼笔记本|    ESC|<br>|致铭主板|    F12     |<br>|磐英主板|    ESC    |<br>|磐正主板|    ESC|<br>|冠铭主板|    F9|                    </p>
+<p><strong>附表</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">主板品牌</th>
+<th style="text-align:center">启动按键</th>
+<th style="text-align:center">笔记本品牌</th>
+<th style="text-align:center">启动按键</th>
+<th style="text-align:center">台式机品牌</th>
+<th style="text-align:center">启动按键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">华硕主板</td>
+<td style="text-align:center">F8</td>
+<td style="text-align:center">联想笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">联想台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">技嘉主板</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">宏基笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">惠普台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">微星主板</td>
+<td style="text-align:center">F11</td>
+<td style="text-align:center">华硕笔记本</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">宏基台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">映泰主板</td>
+<td style="text-align:center">F9</td>
+<td style="text-align:center">惠普笔记本</td>
+<td style="text-align:center">F9</td>
+<td style="text-align:center">戴尔台式机</td>
+<td style="text-align:center">ESC</td>
+</tr>
+<tr>
+<td style="text-align:center">梅捷主板</td>
+<td style="text-align:center">ESC或F12</td>
+<td style="text-align:center">联想Thinkpad</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">神舟台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">七彩虹主板</td>
+<td style="text-align:center">ESC或F11</td>
+<td style="text-align:center">戴尔笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">华硕台式机</td>
+<td style="text-align:center">F8</td>
+</tr>
+<tr>
+<td style="text-align:center">华擎主板</td>
+<td style="text-align:center">F11</td>
+<td style="text-align:center">神舟笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">方正台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">斯巴达卡主板</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">东芝笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">清华同方台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">昂达主板</td>
+<td style="text-align:center">F11</td>
+<td style="text-align:center">三星笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">海尔台式机</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">双敏主板</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">IBM笔记本</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">明基台式机</td>
+<td style="text-align:center">F8</td>
+</tr>
+<tr>
+<td style="text-align:center">翔升主板</td>
+<td style="text-align:center">F10</td>
+<td style="text-align:center">富士通笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">精英主板</td>
+<td style="text-align:center">ESC或F11</td>
+<td style="text-align:center">海尔笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">冠盟主板</td>
+<td style="text-align:center">F11或F12</td>
+<td style="text-align:center">方正笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">富士康主板</td>
+<td style="text-align:center">ESC或F12</td>
+<td style="text-align:center">清华同方笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">顶星主板</td>
+<td style="text-align:center">F11或F12</td>
+<td style="text-align:center">微星笔记本</td>
+<td style="text-align:center">F11</td>
+</tr>
+<tr>
+<td style="text-align:center">铭瑄主板</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">明基笔记本</td>
+<td style="text-align:center">F9</td>
+</tr>
+<tr>
+<td style="text-align:center">盈通主板</td>
+<td style="text-align:center">F8</td>
+<td style="text-align:center">技嘉笔记本</td>
+<td style="text-align:center">F12          </td>
+</tr>
+<tr>
+<td style="text-align:center">捷波主板</td>
+<td style="text-align:center">ESC</td>
+<td style="text-align:center">Gateway笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">Intel主板</td>
+<td style="text-align:center">F12</td>
+<td style="text-align:center">eMachines笔记本</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">杰微主板</td>
+<td style="text-align:center">ESC或F8</td>
+<td style="text-align:center">索尼笔记本</td>
+<td style="text-align:center">ESC</td>
+</tr>
+<tr>
+<td style="text-align:center">致铭主板</td>
+<td style="text-align:center">F12</td>
+</tr>
+<tr>
+<td style="text-align:center">磐英主板</td>
+<td style="text-align:center">ESC</td>
+</tr>
+<tr>
+<td style="text-align:center">磐正主板</td>
+<td style="text-align:center">ESC</td>
+</tr>
+<tr>
+<td style="text-align:center">冠铭主板</td>
+<td style="text-align:center">F9</td>
+</tr>
+</tbody>
+</table>
 <blockquote>
 <p>注意：其它机型请尝试百度解决或参考以上品牌常用启动热键<br><strong>下图是按快捷键之后进入bios后的状态（下图只是个例子，不同电脑不同主板进入后的界面也是不同的）如果对英文不是很了解无法确定各个选项代表什么，可以通过一个单词来快速选择U盘启动，也就是在出现的启动项列表里找到一项带USB字样的就可以了。</strong><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1029pic40.jpg" alt=""></p>
 </blockquote>
@@ -77,7 +247,7 @@
     <link href="http://yoursite.com/2015/10/28/GO%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95%E4%B8%8Bbin%E3%80%81pkg%E3%80%81src%E4%BB%8E%E4%BD%95%E8%80%8C%E6%9D%A5/"/>
     <id>http://yoursite.com/2015/10/28/GO项目目录下bin、pkg、src从何而来/</id>
     <published>2015-10-27T16:16:41.000Z</published>
-    <updated>2015-10-28T06:02:19.660Z</updated>
+    <updated>2015-10-31T14:14:40.970Z</updated>
     <content type="html"><![CDATA[<p><strong>之前有学过一段时间Go语言，前几天忽然发现我的GoPath目录下居然只有src，pkg两个文件夹,那么我的bin文件夹去哪里了呢，仔细看了一下终于发现问题之所在，以下简单介绍一下解决办法。</strong></p>
 <blockquote>
 <p>|– bin 放编译后的可执行文件，可执行文件名字与源代码文件名字一样<br>|– pkg 放编译后的包文件，包文件名字与所在目录一样，注意：名字与 package 无关<br>|– src 放源代码文件</p>
@@ -143,7 +313,7 @@
     <link href="http://yoursite.com/2015/10/26/%E8%A7%A3%E5%86%B3%E6%BA%90%E6%96%87%E4%BB%B6%E5%90%8D%E9%95%BF%E5%BA%A6%E5%A4%A7%E4%BA%8E%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9A%84%E9%95%BF%E5%BA%A6%E9%97%AE%E9%A2%98/"/>
     <id>http://yoursite.com/2015/10/26/解决源文件名长度大于文件系统支持的长度问题/</id>
     <published>2015-10-26T05:10:58.000Z</published>
-    <updated>2015-10-26T05:42:42.223Z</updated>
+    <updated>2015-10-29T13:45:07.884Z</updated>
     <content type="html"><![CDATA[<h2 id="Error：The_source_filename_are_larger_than_is_supported_by_the_file_system···">Error：The source filename are larger than is supported by the file system···</h2><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1026delete_file.png" alt=""></p>
 <h2 id="解决方法：">解决方法：</h2><blockquote>
 <p>you want to delete a tree <code>D:\very\long\path</code>, you don’t necessarily need to use any tools such as Robocopy.</p>
@@ -172,7 +342,7 @@
     <link href="http://yoursite.com/2015/10/15/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%BA%8C%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/15/Github-Pages与Hexo搭建一个独立博客（二）/</id>
     <published>2015-10-15T14:28:54.000Z</published>
-    <updated>2015-10-26T03:55:32.571Z</updated>
+    <updated>2015-10-31T16:52:49.782Z</updated>
     <content type="html"><![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
 <p><em>快捷方便
@@ -180,9 +350,322 @@
 <h2 id="注册GitHub账户">注册GitHub账户</h2></blockquote>
 <h3 id="进入gitHub官网">进入gitHub官网</h3><p><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></p>
 <p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-1.png" alt=""></p>
-<h3 id="注册帐号(按步骤进行)">注册帐号(按步骤进行)</h3><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt=""></p>
-<h3 id="登录GitHub">登录GitHub</h3><p>关于GitHub请自行科普。<br><a href="http://www.yangzhiping.com/tech/github.html" target="_blank" rel="external">如何高效利用GitHub</a></p>
-<h2 id="建立项目">建立项目</h2>]]></content>
+<h3 id="注册帐号">注册帐号</h3><p>(按步骤进行)<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1022sign-up-github-2.png" alt=""></p>
+<h3 id="登录GitHub">登录GitHub</h3><p>关于GitHub如何使用请自行科普。<br><a href="http://www.yangzhiping.com/tech/github.html" target="_blank" rel="external">如何高效利用GitHub</a></p>
+<h2 id="配置和使用Github">配置和使用Github</h2><p>以下教程主要参考<a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a>写成。</p>
+<h3 id="配置SSH_keys">配置<code>SSH keys</code></h3><p>我们如何让本地git项目与远程的github建立联系呢？用<code>SSH keys</code></p>
+<h4 id="检查SSH_keys的设置">检查<code>SSH keys</code>的设置</h4><p>首先我们需要检查你电脑上现有的<code>ssh key</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/. ssh 检查本机的ssh密钥</span><br></pre></td></tr></table></figure></p>
+<p>如果提示：<code>No such file or directory</code> 说明你是第一次使用git。</p>
+<h4 id="生成新的SSH_Key：">生成新的SSH Key：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"邮件地址@youremail.com"</span></span><br></pre></td></tr></table></figure>
+<p>一直回车。。。</p>
+<blockquote>
+<p>注意: 此处的邮箱地址，你可以输入自己的邮箱地址；注意2: 此处的「-C」的是大写的「C」<br>最后看到这样的界面，就成功设置<code>ssh key</code>了：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031ssh.png" alt=""></p>
+</blockquote>
+<h4 id="添加SSH_Key到GitHub">添加<code>SSH Key</code>到<code>GitHub</code></h4><p>在本机设置<code>SSH Key</code>之后，需要添加到 <code>GitHub</code>上，以完成SSH链接的设置。</p>
+<p>1.打开本地<code>C:\Users\用户名\.ssh\id_rsa.pub</code>文件，用文本方式打开不建议用windows自带的文本编辑器。此文件里面内容为刚才生成的密钥。如果看不到这个文件，你需要设置显示隐藏文件。准确的复制这个文件的内容，才能保证设置的成功。</p>
+<p>2.登陆GitHub系统。点击右上角的<code>Account Settings---&gt;SSH Public keys ---&gt; add another public keys</code></p>
+<p>3.把你本地生成的密钥复制到里面（key文本框中）， 点击 add key 就ok了<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031ssh2.jpg" alt=""></p>
+<h4 id="测试">测试</h4><p>可以输入下面的命令，看看设置是否成功，<code>git@github.com</code>的部分不要修改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
+<p>如果是下面的反馈：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">The authenticity of host <span class="string">'github.com (207.97.227.239)'</span> can<span class="string">'t be established.</span><br><span class="line">RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.</span><br><span class="line">Are you sure you want to continue connecting (yes/no)?</span></span><br></pre></td></tr></table></figure></p>
+<p>不要紧张，输入<code>yes</code>就好，然后会看到：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi cnfeat! You<span class="string">'ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="设置用户信息">设置用户信息</h3><p>现在你已经可以通过<code>SSH</code>链接到<code>GitHub</code>了，还有一些个人信息需要完善的。</p>
+<p><code>Git</code>会根据用户的名字和邮箱来记录提交。<code>GitHub</code>也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是<code>GitHub</code>的昵称。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"08hjz"</span>//用户名</span><br><span class="line">git config --global user.email  <span class="string">"08hjz@gmail.com"</span>//填写自己的注册邮箱</span><br></pre></td></tr></table></figure></p>
+<h3 id="SSH_Key配置成功"><code>SSH Key</code>配置成功</h3><p>本机已成功连接到<code>GitHub</code><br>常见错误请参考：<br>[1]  <a href="https://help.github.com/articles/generating-ssh-keys/" target="_blank" rel="external">Generating SSH keys</a><br>[2]  <a href="https://help.github.com/articles/error-permission-denied-publickey/" target="_blank" rel="external">Error: Permission denied (publickey)</a></p>
+<h2 id="建立仓库">建立仓库</h2><h4 id="自定义用户名">自定义用户名</h4><p>登录GitHub，注册自定义用户名如08hjz<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031github4.png" alt=""></p>
+<h4 id="创建New_repository">创建New repository</h4><p>在主页右下角创建New repository，name必须和用户名一致如08hjz.github.io<br>首次创建耐心等待10分钟左右审核，之后即可访问静态主页如<a href="http://08hjz.github.io" target="_blank" rel="external">http://08hjz.github.io</a><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031github1.png" alt=""><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031github2.png" alt=""></p>
+<h2 id="hexo使用">hexo使用</h2><h3 id="hexo主题">hexo主题</h3><h4 id="查看主题">查看主题</h4><p>[1]  <a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">有那些好看的hexo主题？</a><br>[2]  <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a><br>[3]  <a href="https://hexo.io/themes/" target="_blank" rel="external">hexoThemes</a><br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031github5.png" alt=""></p>
+<h4 id="克隆主题到本地">克隆主题到本地</h4><p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1031github6.png" alt=""><br>复制ssh，切换到本地博客文件<code>hexo\themes</code>目录下，克隆主题如图<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:reee/hexo-theme-flat.git</span><br></pre></td></tr></table></figure></p>
+<h3 id="hexo配置">hexo配置</h3><p>修改站点配置文件:<code>hexo/_config.yml</code><br><a href="https://hexo.io/zh-cn/docs/configuration.html" target="_blank" rel="external">配置</a><br>我的配置文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Hexo Configuration</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/configuration.html</span></span><br><span class="line"><span class="comment">## Source: https://github.com/hexojs/hexo/</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Site</span></span><br><span class="line">title: xxx B<span class="built_in">log</span>        <span class="comment">#博客名</span></span><br><span class="line">subtitle: xxxxx        <span class="comment">#小标题</span></span><br><span class="line">description: xxxxxx    <span class="comment">#描述</span></span><br><span class="line">author: xxxx           <span class="comment">#作者</span></span><br><span class="line">language: zh-CN        <span class="comment">#语言</span></span><br><span class="line"><span class="comment">#timezone: "UTC+08:00" #时区</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></span><br><span class="line">url: http://yoursite.com</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Directory</span></span><br><span class="line"><span class="built_in">source</span>_dir: <span class="built_in">source</span></span><br><span class="line">public_dir: public</span><br><span class="line">tag_dir: tags</span><br><span class="line">archive_dir: archives</span><br><span class="line">category_dir: categories</span><br><span class="line">code_dir: downloads/code</span><br><span class="line">i18n_dir: :lang</span><br><span class="line">skip_render:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Writing</span></span><br><span class="line">new_post_name: :title.md <span class="comment"># File name of new posts</span></span><br><span class="line">default_layout: post</span><br><span class="line">titlecase: <span class="literal">false</span> <span class="comment"># Transform title into titlecase</span></span><br><span class="line">external_link: <span class="literal">true</span> <span class="comment"># Open external links in new tab</span></span><br><span class="line">filename_<span class="keyword">case</span>: <span class="number">0</span></span><br><span class="line">render_drafts: <span class="literal">false</span></span><br><span class="line">post_asset_folder: <span class="literal">false</span></span><br><span class="line">relative_link: <span class="literal">false</span></span><br><span class="line">future: <span class="literal">true</span></span><br><span class="line">highlight:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  line_number: <span class="literal">true</span></span><br><span class="line">  auto_detect: <span class="literal">true</span></span><br><span class="line">  tab_replace:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Category &amp; Tag</span></span><br><span class="line">default_category: uncategorized</span><br><span class="line">category_map:</span><br><span class="line">tag_map:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Date / Time format</span></span><br><span class="line"><span class="comment">## Hexo uses Moment.js to parse and display date</span></span><br><span class="line"><span class="comment">## You can customize the date format as defined in</span></span><br><span class="line"><span class="comment">## http://momentjs.com/docs/#/displaying/format/</span></span><br><span class="line">date_format: YYYY-MM-DD  <span class="comment">#日期格式</span></span><br><span class="line">time_format: HH:mm:ss   <span class="comment">#时间格式</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Pagination</span></span><br><span class="line"><span class="comment">## Set per_page to 0 to disable pagination</span></span><br><span class="line">per_page: <span class="number">10</span>          <span class="comment">#每页显示多少文章</span></span><br><span class="line">pagination_dir: page</span><br><span class="line"></span><br><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: http://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: http://hexo.io/themes/</span></span><br><span class="line">theme: hexo-theme-next  <span class="comment">#自定义题</span></span><br><span class="line">swiftype_key: <span class="string">"xxxxxx"</span>  <span class="comment">#swiftype搜索服务</span></span><br><span class="line">baidu_analytics: xxxxxxxx <span class="comment">#百度统计</span></span><br><span class="line"><span class="comment">#duoshuo</span></span><br><span class="line">duoshuo_shortname: xxx   <span class="comment">#多说评论</span></span><br><span class="line"><span class="comment"># JiaThis 分享服务</span></span><br><span class="line"><span class="comment">#jiathis: true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 多说分享服务</span></span><br><span class="line">duoshuo_share: <span class="literal">true</span></span><br><span class="line">since: <span class="number">2015</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###这个deploy配置比较重要提交到github全靠它，切记一定要配置这个</span></span><br><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: http://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git <span class="comment">#用自己的用户名</span></span><br><span class="line">  branch: master</span><br><span class="line"><span class="comment">#touxiang</span></span><br><span class="line">avatar: /images/avatar.png <span class="comment">#头像</span></span><br><span class="line"><span class="comment"># Social links</span></span><br><span class="line">social: <span class="comment">#其他链接自定义</span></span><br><span class="line">  github: xxxxx</span><br><span class="line">  weibo: xxxxx</span><br><span class="line">  douban: xxxxxxx</span><br><span class="line">  zhihu: xxxxxx</span><br><span class="line">  <span class="comment"># 等等</span></span><br><span class="line">  <span class="comment"># title, chinese available</span></span><br><span class="line">links_title: Links</span><br><span class="line"><span class="comment"># links</span></span><br><span class="line">links: <span class="comment">#链接</span></span><br><span class="line">  MacTalk: http://theme-next.iissnan.com/</span><br></pre></td></tr></table></figure></p>
+<h4 id="网站">网站</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">title</td>
+<td style="text-align:center">网站标题</td>
+</tr>
+<tr>
+<td style="text-align:center">subtitle</td>
+<td style="text-align:center">网站副标题</td>
+</tr>
+<tr>
+<td style="text-align:center">description</td>
+<td style="text-align:center">网站描述</td>
+</tr>
+<tr>
+<td style="text-align:center">author</td>
+<td style="text-align:center">您的名字</td>
+</tr>
+<tr>
+<td style="text-align:center">language</td>
+<td style="text-align:center">网站使用的语言</td>
+</tr>
+<tr>
+<td style="text-align:center">timezone</td>
+<td style="text-align:center">网站时区。Hexo 预设使用您电脑的时区。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="网址">网址</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">url</td>
+<td style="text-align:center">网址</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">root</td>
+<td style="text-align:center">网站根目录</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">permalink_default</td>
+<td style="text-align:center">永久链接中各部分的默认值</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">permalink</td>
+<td style="text-align:center">文章的永久链接</td>
+<td style="text-align:center">格式    :year/:month/:day/:title/</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<blockquote>
+<p>网站存放在子目录<br>如果您的网站存放在子目录中，例如 <code>http://yoursite.com/blog</code>，则请将您的<code>url</code>设为 <code>http://yoursite.com/blog</code>并把<code>root</code>设为<code>/  blog/</code>。</p>
+</blockquote>
+<h4 id="目录">目录</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">source_dir</td>
+<td style="text-align:center">资源文件夹，这个文件夹用来存放内容。</td>
+<td style="text-align:center">source</td>
+</tr>
+<tr>
+<td style="text-align:center">public_dir</td>
+<td style="text-align:center">公共文件夹，这个文件夹用于存放生成的站点文件。</td>
+<td style="text-align:center">public</td>
+</tr>
+<tr>
+<td style="text-align:center">tag_dir</td>
+<td style="text-align:center">标签文件夹</td>
+<td style="text-align:center">tags</td>
+</tr>
+<tr>
+<td style="text-align:center">archive_dir</td>
+<td style="text-align:center">归档文件夹</td>
+<td style="text-align:center">archives</td>
+</tr>
+<tr>
+<td style="text-align:center">category_dir</td>
+<td style="text-align:center">分类文件夹</td>
+<td style="text-align:center">categories</td>
+</tr>
+<tr>
+<td style="text-align:center">code_dir</td>
+<td style="text-align:center">Include code 文件夹</td>
+<td style="text-align:center">downloads/code</td>
+</tr>
+<tr>
+<td style="text-align:center">skip_render</td>
+<td style="text-align:center">跳过指定文件的渲染，您可使用 glob 来配置路径。</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">i18n_dir</td>
+<td style="text-align:center">国际化（i18n）文件夹</td>
+<td style="text-align:center">:lang</td>
+</tr>
+</tbody>
+</table>
+<h4 id="文章">文章</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">new_post_name</td>
+<td style="text-align:center">新文章的文件名称</td>
+<td style="text-align:center">:title.md</td>
+</tr>
+<tr>
+<td style="text-align:center">default_layout</td>
+<td style="text-align:center">预设布局    post</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">auto_spacing</td>
+<td style="text-align:center">在中文和英文之间加入空格</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">titlecase</td>
+<td style="text-align:center">把标题转换为 title case</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">external_link</td>
+<td style="text-align:center">在新标签中打开链接</td>
+<td style="text-align:center">true</td>
+</tr>
+<tr>
+<td style="text-align:center">filename_case</td>
+<td style="text-align:center">把文件名称转换为 (1) 小写或 (2) 大写</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">render_drafts</td>
+<td style="text-align:center">显示草稿</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">post_asset_folder</td>
+<td style="text-align:center">启动 Asset 文件夹</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">relative_link</td>
+<td style="text-align:center">把链接改为与根目录的相对位址</td>
+<td style="text-align:center">false</td>
+</tr>
+<tr>
+<td style="text-align:center">highlight</td>
+<td style="text-align:center">代码块的设置</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">future</td>
+<td style="text-align:center">显示未来的文章</td>
+<td style="text-align:center">true</td>
+</tr>
+</tbody>
+</table>
+<h4 id="分类_&amp;_标签">分类 &amp; 标签</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">category_map</td>
+<td style="text-align:center">分类别名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">tag_map</td>
+<td style="text-align:center">标签别名</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">default_category</td>
+<td style="text-align:center">默认分类</td>
+<td style="text-align:center">uncategorized</td>
+</tr>
+</tbody>
+</table>
+<h4 id="日期时间格式">日期时间格式</h4><p>Hexo 使用 <code>Moment.js</code> 来解析和显示时间</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">date_format</td>
+<td style="text-align:center">日期格式</td>
+<td style="text-align:center">MMM D YYYY</td>
+</tr>
+<tr>
+<td style="text-align:center">time_format</td>
+<td style="text-align:center">时间格式</td>
+<td style="text-align:center">H:mm:ss</td>
+</tr>
+</tbody>
+</table>
+<h4 id="分页">分页</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+<th style="text-align:center">默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">per_page</td>
+<td style="text-align:center">每页显示的文章量 (0 = 关闭分页功能)</td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:center">pagination_dir</td>
+<td style="text-align:center">分页目录</td>
+<td style="text-align:center">page</td>
+</tr>
+</tbody>
+</table>
+<h4 id="扩展">扩展</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">参数</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">theme</td>
+<td style="text-align:center">当前主题名称</td>
+</tr>
+<tr>
+<td style="text-align:center">deploy</td>
+<td style="text-align:center">部署</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>特别注意</strong>：如：<code>duoshuo_shortname: xxx   #多说评论</code>,<code>duoshuo_shortname:</code>和<code>xxx</code>中间是有一个空格的，修改的时候请认真检查此处最容易出错。</p>
+</blockquote>
+<h4 id="主题配置文件">主题配置文件</h4><p>修改站点配置文件:<code>hexo/themes/你的主题/_config.yml</code>,请根据自己的喜好修改。<br>我的配置文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -&gt; "archives" )</span></span><br><span class="line">menu:</span><br><span class="line">  home: /</span><br><span class="line">  categories: /categories <span class="comment">#10.14</span></span><br><span class="line">  archives: /archives</span><br><span class="line">  tags: /tags</span><br><span class="line">  books: /books</span><br><span class="line">  <span class="comment">#commonweal: /404.html</span></span><br><span class="line">  tools: /tools <span class="comment">#10.14</span></span><br><span class="line">  about: /about <span class="comment">#10.14</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Place your favicon.ico to /source directory.</span></span><br><span class="line">favicon: /favicon.ico</span><br><span class="line"></span><br><span class="line"><span class="comment"># Set default keywords (Use a comma to separate)</span></span><br><span class="line">keywords: <span class="string">"Hexo,next"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Set rss to false to disable feed link.</span></span><br><span class="line"><span class="comment"># Leave rss as empty to use site's feed link.</span></span><br><span class="line"><span class="comment"># Set rss to specific value if you have burned your feed already.</span></span><br><span class="line">rss:</span><br><span class="line"></span><br><span class="line"><span class="comment"># Icon fonts</span></span><br><span class="line"><span class="comment"># Place your font into next/source/fonts, specify directory-name and font-name here</span></span><br><span class="line"><span class="comment"># Avialable: default | linecons | fifty-shades | feather</span></span><br><span class="line">icon_font: default</span><br><span class="line"><span class="comment">#icon_font: fifty-shades</span></span><br><span class="line"><span class="comment">#icon_font: feather</span></span><br><span class="line"><span class="comment">#icon_font: linecons</span></span><br><span class="line"><span class="comment">#icon_font: icomoon</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Code Highlight theme</span></span><br><span class="line"><span class="comment"># Available value: normal | night | night eighties | night blue | night bright</span></span><br><span class="line"><span class="comment"># https://github.com/chriskempson/tomorrow-theme</span></span><br><span class="line">highlight_theme: night eighties</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># MathJax Support</span></span><br><span class="line">mathjax: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Schemes</span></span><br><span class="line">scheme: Mist</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Sidebar, available value:</span></span><br><span class="line"><span class="comment">#  - post    expand on posts automatically. Default.</span></span><br><span class="line"><span class="comment">#  - always  expand for all pages automatically</span></span><br><span class="line"><span class="comment">#  - hide    expand only when click on the sidebar toggle icon.</span></span><br><span class="line">sidebar: post</span><br><span class="line"><span class="comment">#sidebar: always</span></span><br><span class="line"><span class="comment">#sidebar: hide</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Automatically scroll page to section which is under &lt;!-- more --&gt; mark.</span></span><br><span class="line">scroll_to_more: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># Automatically add list number to toc.</span></span><br><span class="line">toc_list_number: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Automatically Excerpt</span></span><br><span class="line">auto_excerpt:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">false</span></span><br><span class="line">  length: <span class="number">150</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Use Lato font</span></span><br><span class="line"><span class="comment"># Note: this option is avialable only when the language is not `zh-Hans`</span></span><br><span class="line">use_font_lato: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Make duoshuo show UA</span></span><br><span class="line"><span class="comment"># user_id must NOT be null when admin_enable is true!</span></span><br><span class="line"><span class="comment"># you can visit http://dev.duoshuo.com get duoshuo user id.</span></span><br><span class="line">duoshuo_info:</span><br><span class="line">  ua_<span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  admin_<span class="built_in">enable</span>: <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  user_id: <span class="number">0</span></span><br><span class="line">  duoshuo_hotartical: <span class="literal">true</span></span><br><span class="line">  <span class="comment">#admin_nickname: ROOT</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## DO NOT EDIT THE FOLLOWING SETTINGS</span></span><br><span class="line"><span class="comment">## UNLESS YOU KNOW WHAT YOU ARE DOING</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Use velocity to animate everything.</span></span><br><span class="line">use_motion: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Fancybox</span></span><br><span class="line">fancybox: <span class="literal">true</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Static files</span></span><br><span class="line">vendors: vendors</span><br><span class="line">css: css</span><br><span class="line">js: js</span><br><span class="line">images: images</span><br><span class="line"></span><br><span class="line"><span class="comment"># Theme version</span></span><br><span class="line">version: <span class="number">0.4</span>.<span class="number">5.1</span></span><br><span class="line"><span class="comment"># JiaThis 分享服务</span></span><br><span class="line"><span class="comment">#jiathis: true</span></span><br><span class="line"><span class="comment"># 多说分享服务</span></span><br><span class="line">duoshuo_share: <span class="literal">true</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="导航栏添加自定义页面">导航栏添加自定义页面</h4><p>1.命令手动生成自定义页面<code>hexo n page &quot;about&quot;</code><br>2.编辑<code>hexo/source/about/index.md</code>内容<br>3.修改<code>themes/jacman/_config.yml</code>文件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line"> 关于: /about</span><br></pre></td></tr></table></figure></p>
+<h4 id="发表文章">发表文章</h4><ol>
+<li><code>hexo new &quot;my new post&quot;</code></li>
+<li>在<code>hexo\source\_posts</code>中打开这个文件（打开方式用“记事本”即可），配置开头再写文章。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: my new post <span class="comment">#可以改成中文的，如“新文章”</span></span><br><span class="line">date: <span class="number">2013</span>-<span class="number">05</span>-<span class="number">29</span> <span class="number">07</span>:<span class="number">56</span>:<span class="number">29</span> <span class="comment">#发表日期，一般不改动</span></span><br><span class="line">categories: blog <span class="comment">#文章文类</span></span><br><span class="line">tags: [博客，文章] <span class="comment">#文章标签，多于一项时用这种格式</span></span><br><span class="line">---</span><br><span class="line"><span class="comment">#这里是正文，用markdown写，使用方法参照我原来的博客[Introduction to markdown](http://zipperary.com/2013/05/22/introduction-to-markdown/)</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>3.<code>hexo clean</code>清除文件之后再<code>hexo g #hexo generate</code>生成文件。<br>4.<code>hexo s #hexo server</code>，访问<code>localhost:4000</code>(也可以用<code>127.0.0.1</code>)预览效果,退出server用Ctrl+c.<br>5.<code>hexo d #hexo deploy</code>同步到github，期间可能需要输入用户名和密码，访问网站看看效果。</p>
+<blockquote>
+<p>注意：以后每次发表文章就是按照这个1-5的步骤。</p>
+</blockquote>
+<hr>
+<p>参考资料：<br>[1]  <a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a><br>[2]  <a href="http://www.jianshu.com/p/05289a4bc8b2" target="_blank" rel="external">如何搭建一个独立博客——简明Github Pages与Hexo教程</a></p>
+]]></content>
     <summary type="html">
     <![CDATA[<p>刚刚使用了一下hexo，并用hexo搭建了自己的博客，感觉到了hexo的强大之处。</p>
 <blockquote>
@@ -206,7 +689,7 @@
     <link href="http://yoursite.com/2015/10/11/Github-Pages%E4%B8%8EHexo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/"/>
     <id>http://yoursite.com/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/</id>
     <published>2015-10-11T15:33:34.000Z</published>
-    <updated>2015-10-28T06:02:17.536Z</updated>
+    <updated>2015-10-31T16:20:42.096Z</updated>
     <content type="html"><![CDATA[<blockquote>
 <p><em>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 </em>Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。</p>
@@ -247,6 +730,7 @@
 <h4 id="打开cmder运行">打开cmder运行</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <h4 id="检查版本-1">检查版本</h4><p>打开cmder运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></p>
 <p><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1024hexo.png" alt=""></p>
+<h4 id="安装Hexo插件">安装Hexo插件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-category --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-deployer-heroku --save</span><br><span class="line">npm install hexo-deployer-rsync --save</span><br><span class="line">npm install hexo-deployer-openshift --save</span><br><span class="line">npm install hexo-renderer-marked@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-renderer-stylus@<span class="number">0.2</span> --save</span><br><span class="line">npm install hexo-generator-feed@<span class="number">1</span> --save</span><br><span class="line">npm install hexo-generator-sitemap@<span class="number">1</span> --save</span><br></pre></td></tr></table></figure>
 <h4 id="Hexo建站">Hexo建站</h4><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件,如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></p>
 <p>新建完成后，指定文件夹的目录如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── scripts</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure></p>
 <ul>
@@ -382,7 +866,7 @@
     <link href="http://yoursite.com/2015/10/11/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%91%A2%EF%BC%9F/"/>
     <id>http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/</id>
     <published>2015-10-11T12:20:34.000Z</published>
-    <updated>2015-10-26T03:55:32.571Z</updated>
+    <updated>2015-10-29T13:45:07.883Z</updated>
     <content type="html"><![CDATA[<ul>
 <li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· </li>
 </ul>

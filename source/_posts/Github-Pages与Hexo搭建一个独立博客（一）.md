@@ -93,7 +93,22 @@ Windows下的Node.js 安装配置
  hexo -v
 ```
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1024hexo.png)
-
+#### 安装Hexo插件
+```bash
+npm install hexo-generator-index --save
+npm install hexo-generator-archive --save
+npm install hexo-generator-category --save
+npm install hexo-generator-tag --save
+npm install hexo-server --save
+npm install hexo-deployer-git --save
+npm install hexo-deployer-heroku --save
+npm install hexo-deployer-rsync --save
+npm install hexo-deployer-openshift --save
+npm install hexo-renderer-marked@0.2 --save
+npm install hexo-renderer-stylus@0.2 --save
+npm install hexo-generator-feed@1 --save
+npm install hexo-generator-sitemap@1 --save
+```
 #### Hexo建站
 安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件,如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。
 ```bash
