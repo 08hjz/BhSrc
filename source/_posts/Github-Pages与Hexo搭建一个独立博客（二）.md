@@ -7,6 +7,7 @@ categories: 教程 #分类
 
 >*快捷方便
 >*容易上手，网上有很好的博客教程
+
 ## 注册GitHub账户
 
 ### 进入gitHub官网
@@ -106,8 +107,8 @@ git config --global user.email  "08hjz@gmail.com"//填写自己的注册邮箱
 git clone git@github.com:reee/hexo-theme-flat.git
 ```
 ### hexo配置
-修改站点配置文件:` hexo/_config.yml `
-[配置](https://hexo.io/zh-cn/docs/configuration.html)
+[Hexo官方文档-配置](https://hexo.io/zh-cn/docs/configuration.html)
+#### 修改站点配置文件:` hexo/_config.yml `
 我的配置文件：
 ```bash
 # Hexo Configuration
@@ -411,7 +412,7 @@ duoshuo_share: true
 2. 在` hexo\source\_posts `中打开这个文件（打开方式用“记事本”即可），配置开头再写文章。
 ```bash
 title: my new post #可以改成中文的，如“新文章”
-date: 2013-05-29 07:56:29 #发表日期，一般不改动
+date: 2015-10-29 17:56:29 #发表日期，一般不改动
 categories: blog #文章文类
 tags: [博客，文章] #文章标签，多于一项时用这种格式
 ---

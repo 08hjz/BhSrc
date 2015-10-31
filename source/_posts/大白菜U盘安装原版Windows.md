@@ -85,7 +85,8 @@ categories: Windows #分类
 |致铭主板|	F12	 |	 	 	 
 |磐英主板|	ESC	| 	 	 	 
 |磐正主板|	ESC|	 	 	 	 
-|冠铭主板|	F9|	 	 	 	 
+|冠铭主板|	F9|	 
+---	 	 	 
 >注意：其它机型请尝试百度解决或参考以上品牌常用启动热键
 **下图是按快捷键之后进入bios后的状态（下图只是个例子，不同电脑不同主板进入后的界面也是不同的）如果对英文不是很了解无法确定各个选项代表什么，可以通过一个单词来快速选择U盘启动，也就是在出现的启动项列表里找到一项带USB字样的就可以了。**
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1029pic40.jpg)
@@ -97,8 +98,6 @@ categories: Windows #分类
 #### 进入U盘启动界面
 **重启**电脑，**长按热键**（开机的同时一直按着直到选择界面出来），进入U盘启动界面，选择运行**大白菜Win8PEx64正式版**进入Win8PE，操作使用回车键和方向键。如图：
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_10311.png)
-![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_10312.png)
-![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_10313.png)
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_10314.png)
 
 #### Win8PE基本操作
@@ -142,4 +141,8 @@ categories: Windows #分类
 ##### 大白菜U盘其他功能
 请在确保安全的前提下自行尝试。
 ![](http://7xnkw3.com1.z0.glb.clouddn.com/hexo_103115.png)
+
+----
+**参考资料：**
+[1]  [大白菜-帮助中心](http://www.winbaicai.com/help.html)
 
