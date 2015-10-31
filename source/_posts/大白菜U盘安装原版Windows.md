@@ -1,6 +1,7 @@
 title: 大白菜U盘安装原版Windows系统
 date: 2015-10-31 13:17:03
-tags:
+tags: [Windows,系统安装,大白菜]
+categories: Windows #分类
 ---
 应朋友的邀请帮忙解释一下怎么安装windows系统，所以才找了几篇不错的教程合成了这篇，希望能够有用。
 
