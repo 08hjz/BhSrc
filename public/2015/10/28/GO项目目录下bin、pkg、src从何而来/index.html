@@ -32,7 +32,7 @@
 
 
 
-  <meta name="keywords" content="学习感悟," />
+  <meta name="keywords" content="GO项目,Go,GoPath," />
 
 
 
@@ -43,22 +43,36 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description" content="生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· 
+<meta name="description" content="之前有学过一段时间Go语言，前几天忽然发现我的GoPath目录下居然只有src，pkg两个文件夹,那么我的bin文件夹去哪里了呢，仔细看了一下终于发现问题之所在，以下简单介绍一下解决办法。
 
-过去的时间到底有多少？不知道什么时候开始害怕长大···我只知道小时候盼望着长大···即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间">
+|– bin 放编译后的可执行文件，可执行文件名字与源代码文件名字一样|– pkg 放编译后的包文件，包文件名字与所在目录一样，注意：名字与 package 无关|– src 放源代码文件
+
+GoPath文件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="为什么要搭建一个博客呢？">
-<meta property="og:url" content="http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/index.html">
+<meta property="og:title" content="GO项目目录下bin,pkg,src从何而来">
+<meta property="og:url" content="http://yoursite.com/2015/10/28/GO项目目录下bin、pkg、src从何而来/index.html">
 <meta property="og:site_name" content="H.J.Z Blog">
-<meta property="og:description" content="生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· 
+<meta property="og:description" content="之前有学过一段时间Go语言，前几天忽然发现我的GoPath目录下居然只有src，pkg两个文件夹,那么我的bin文件夹去哪里了呢，仔细看了一下终于发现问题之所在，以下简单介绍一下解决办法。
 
-过去的时间到底有多少？不知道什么时候开始害怕长大···我只知道小时候盼望着长大···即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间">
-<meta property="og:updated_time" content="2015-10-26T03:55:32.571Z">
+|– bin 放编译后的可执行文件，可执行文件名字与源代码文件名字一样|– pkg 放编译后的包文件，包文件名字与所在目录一样，注意：名字与 package 无关|– src 放源代码文件
+
+GoPath文件">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027gopath1.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027cdpkg.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027nohavebin.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havegobin.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027deletegobin.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027nogobin.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havebin.png">
+<meta property="og:image" content="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havegobin.png">
+<meta property="og:updated_time" content="2015-10-28T06:02:19.660Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="为什么要搭建一个博客呢？">
-<meta name="twitter:description" content="生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· 
+<meta name="twitter:title" content="GO项目目录下bin,pkg,src从何而来">
+<meta name="twitter:description" content="之前有学过一段时间Go语言，前几天忽然发现我的GoPath目录下居然只有src，pkg两个文件夹,那么我的bin文件夹去哪里了呢，仔细看了一下终于发现问题之所在，以下简单介绍一下解决办法。
 
-过去的时间到底有多少？不知道什么时候开始害怕长大···我只知道小时候盼望着长大···即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间">
+|– bin 放编译后的可执行文件，可执行文件名字与源代码文件名字一样|– pkg 放编译后的包文件，包文件名字与所在目录一样，注意：名字与 package 无关|– src 放源代码文件
+
+GoPath文件">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -68,7 +82,7 @@
   };
 </script>
 
-  <title> 为什么要搭建一个博客呢？ | H.J.Z Blog </title>
+  <title> GO项目目录下bin,pkg,src从何而来 | H.J.Z Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -235,7 +249,7 @@
           
           
             
-              为什么要搭建一个博客呢？
+              GO项目目录下bin,pkg,src从何而来
             
           
         </h1>
@@ -244,8 +258,8 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-10-11T20:20:34+08:00" content="2015-10-11">
-            2015-10-11
+          <time itemprop="dateCreated" datetime="2015-10-28T00:16:41+08:00" content="2015-10-28">
+            2015-10-28
           </time>
         </span>
 
@@ -254,8 +268,8 @@
             &nbsp; | &nbsp; 分类于
             
               <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/随笔/" itemprop="url" rel="index">
-                  <span itemprop="name">随笔</span>
+                <a href="/categories/Go/" itemprop="url" rel="index">
+                  <span itemprop="name">Go</span>
                 </a>
               </span>
 
@@ -270,8 +284,8 @@
           
             <span class="post-comments-count">
               &nbsp; | &nbsp;
-              <a href="/2015/10/11/为什么要搭建一个博客呢？/#comments" itemprop="discussionUrl">
-                <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/11/为什么要搭建一个博客呢？/" itemprop="commentsCount"></span>
+              <a href="/2015/10/28/GO项目目录下bin、pkg、src从何而来/#comments" itemprop="discussionUrl">
+                <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/28/GO项目目录下bin、pkg、src从何而来/" itemprop="commentsCount"></span>
               </a>
             </span>
           
@@ -288,15 +302,49 @@
       
 
       
-        <span itemprop="articleBody"><ul>
-<li>生活中有好多为什么，有时候我们并不深究只是按照万物发展的自然规律顺其自然，可是细细想来，似乎都有不言而喻的理由与借口，既然如此，何必深究··· </li>
+        <span itemprop="articleBody"><p><strong>之前有学过一段时间Go语言，前几天忽然发现我的GoPath目录下居然只有src，pkg两个文件夹,那么我的bin文件夹去哪里了呢，仔细看了一下终于发现问题之所在，以下简单介绍一下解决办法。</strong></p>
+<blockquote>
+<p>|– bin 放编译后的可执行文件，可执行文件名字与源代码文件名字一样<br>|– pkg 放编译后的包文件，包文件名字与所在目录一样，注意：名字与 package 无关<br>|– src 放源代码文件</p>
+</blockquote>
+<h2 id="GoPath文件结构如下">GoPath文件结构如下</h2><p>D:.<br>├─bin<br>│      test.exe<br>│<br>├─pkg<br>│  └─windows_amd64<br>│          mymath.a<br>│<br>└─src<br>    ├─mymath<br>    │      mymath.go<br>    │<br>    └─test<br>            test.go</p>
+<h3 id="src目录">src目录</h3><p>此目录是自己在<code>GoPath</code>目录下手动创建的，用于放源代码文件。</p>
+<ul>
+<li>手动在<code>GoPtah</code>目录下添加<code>src</code>目录，如图：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027gopath1.png" alt=""></li>
+<li>新建两个文件夹<code>mymath</code>,<code>test</code>,分别添加<code>mymath.go</code>,<code>test.go</code>.<br>结构如下：<br>├─mymath<br>│      mymath.go<br>│<br>└─test<br>test.go</li>
 </ul>
-<h2 id="过去的时间到底有多少？">过去的时间到底有多少？</h2><p>不知道什么时候开始害怕长大···<br>我只知道小时候盼望着长大···<br>即使已经是过去的时间，过去的人，过去的事，过去的一切，都仿佛在昨天。生活既不是用来怀旧的，也不是用来填充时间和空间的空白的。那么我们的时间都去哪了？你可曾记得过去的时间到底有多少。</p>
-<h3 id="你真正利用过的时间都在做有意义的事吗？">你真正利用过的时间都在做有意义的事吗？</h3><p>有意义的事？<br>我认为有意义的事是什么？<br>的确，从很小的时候开始我们已经对时间有了一个明确的认识，以致于到今日我们也不肯承认自己对时间的忽视。过去的每一天也许你一直在努力，也许你只努力过几天，也许你从来都没有努力，可是就在刚才你已经意识到自己该做应该做的事了。如此说来，在过去的时间里每个人都是幸运的，至少我们都有所收获。</p>
-<h3 id="那么你浪费的时间都去哪了？">那么你浪费的时间都去哪了？</h3><p>我们是在浪费时间中寻找利用时间的借口，而且我们也不是黑夜里的独行者。</p>
-<h2 id="你学到了那些知识？">你学到了那些知识？</h2><p>理论知识，人生哲理，心灵鸡汤，做人，做事···</p>
-<h3 id="你觉得你学到的那些知识可以使你收益终生？">你觉得你学到的那些知识可以使你收益终生？</h3><p>我学会吃饭，So我就不会饿死。</p>
-<p>More info: <a href="http://www.zhihu.com/question/20448329" target="_blank" rel="external">你觉得受益终生的技能是？</a></p>
+<figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//mymath.go</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">package</span> math</span><br><span class="line"><span class="keyword">func</span> Mymath(a <span class="typename">int</span>,b <span class="typename">int</span>) <span class="typename">int</span> &#123;</span><br><span class="line">     <span class="keyword">return</span> a * b</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//test.go</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span>(</span><br><span class="line">     <span class="string">"fmt"</span></span><br><span class="line">     <span class="string">"mymath"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">func</span> main() &#123;</span><br><span class="line">     a := <span class="number">100</span></span><br><span class="line">     b := <span class="number">200</span></span><br><span class="line">     fmt.Println(math.Mymath(a,b))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="pkg目录">pkg目录</h3><p>此目录是在<code>src</code>的源文件目录下对<code>.go</code>文件通过<code>go install</code>之后自动生成的，放编译后的包文件。由于在尝试过程中我暂时没有发现<code>pkg</code>录出现像<code>bin</code>目录那样不会自动生成的情况，所以这步暂时没有问题。</p>
+<ul>
+<li><p>在<code>src/maymath</code>目录下打开<code>cmder</code>运行<code>go install</code>命令，可以发现 <code>GoPath</code>目录下自动生成了<code>pkg</code>目录。如图<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027cdpkg.png" alt=""></p>
+</li>
+<li><p>在<code>src/test</code>目录下打开 <code>cmder</code>运行<code>go build</code>命令，可以发现 <code>GoPath</code>目录下并没有自动生成了<code>bin</code>目录，而是在当前目录下生成了<code>test.exe</code>。如图<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027nohavebin.png" alt=""></p>
+</li>
+</ul>
+<h3 id="bin目录">bin目录</h3><p>此目录是在<code>src</code>的源文件目录下对 <code>.go</code>文件通过<code>go build</code>和<code>go install</code>之后自动生成的，<code>.go</code>文件要调用<code>pkg</code>下的包文件。那么问题来了，<code>bin</code>目录有时候就不会生成，最后我才发现是环境变量<code>GOBIN</code>的原因。废话不多说直接上图。</p>
+<ul>
+<li><p>查看<code>GO</code>环境变量<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havegobin.png" alt=""></p>
+</li>
+<li><p>找到<code>GOBIN</code>环境变量删除<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027deletegobin.png" alt=""></p>
+</li>
+<li><p>查看修改后的<code>GO</code>环境变量<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027nogobin.png" alt=""></p>
+</li>
+<li><p>删除test/test.exe,在当前目录下打开<code>cmder</code>运行<br><code>go install</code>,查看<code>GoPath</code>目录结构即可发现<code>bin</code>已自动生成，如图：<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havebin.png" alt=""></p>
+</li>
+</ul>
+<h2 id="Go环境变量配置">Go环境变量配置</h2><ul>
+<li>GOROOT：Go的安装目录</li>
+<li>GOPATH：用于存放Go语言Package的目录，这个目录不能在Go的安装目录中</li>
+<li>GOBIN：Go二进制文件存放目录，写成%GOROOT%\bin就好</li>
+<li>GOOS：操作系统</li>
+<li>GOARCH：指定系统环境，i386表示x86，amd64表示x64</li>
+<li>PATH：需要将%GOBIN%加在PATH变量的最后，方便在命令行下运行Go</li>
+<li>其他<code>GO</code>环境变量可以用<code>cmd</code>命令查询<br><img src="http://7xnkw3.com1.z0.glb.clouddn.com/hexo_1027havegobin.png" alt=""></li>
+</ul>
+<h2 id="更多资料">更多资料</h2><p><a href="http://www.cnblogs.com/wlts/archive/2013/06/01/3112004.html" target="_blank" rel="external">Golang项目目录结构组织</a><br><a href="https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/01.0.md" target="_blank" rel="external">GO环境配置</a></p>
+<blockquote>
+<p>注：以上提到的cmder是一个cmd工具，详细请查看前面的文章</p>
+</blockquote>
 </span>
       
     </div>
@@ -305,7 +353,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/学习感悟/" rel="tag">#学习感悟</a>
+            <a href="/tags/GO项目/" rel="tag">#GO项目</a>
+          
+            <a href="/tags/Go/" rel="tag">#Go</a>
+          
+            <a href="/tags/GoPath/" rel="tag">#GoPath</a>
           
         </div>
       
@@ -314,11 +366,13 @@
         <div class="post-nav">
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2015/10/11/Github-Pages与Hexo搭建一个独立博客（一）/" rel="prev">GitHub Pages与Hexo搭建一个独立博客（一）</a>
+              <a href="/2015/10/31/大白菜U盘安装原版Windows/" rel="prev">大白菜U盘安装原版Windows系统</a>
             
           </div>
 
           <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/10/26/解决源文件名长度大于文件系统支持的长度问题/" rel="next">windows删除文件报错The source filename are larger than is supported by the file system</a>
             
           </div>
         </div>
@@ -333,10 +387,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2015/10/11/为什么要搭建一个博客呢？/"
-     data-title="为什么要搭建一个博客呢？"
+        <div class="ds-share flat" data-thread-key="2015/10/28/GO项目目录下bin、pkg、src从何而来/"
+     data-title="GO项目目录下bin,pkg,src从何而来"
      data-content=""
-     data-url="http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/">
+     data-url="http://yoursite.com/2015/10/28/GO项目目录下bin、pkg、src从何而来/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -362,8 +416,8 @@
         
           <div class="comments" id="comments">
             
-              <div class="ds-thread" data-thread-key="2015/10/11/为什么要搭建一个博客呢？/"
-                   data-title="为什么要搭建一个博客呢？" data-url="http://yoursite.com/2015/10/11/为什么要搭建一个博客呢？/">
+              <div class="ds-thread" data-thread-key="2015/10/28/GO项目目录下bin、pkg、src从何而来/"
+                   data-title="GO项目目录下bin,pkg,src从何而来" data-url="http://yoursite.com/2015/10/28/GO项目目录下bin、pkg、src从何而来/">
               </div>
             
           </div>
@@ -481,7 +535,7 @@
           <div class="post-toc">
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#过去的时间到底有多少？"><span class="nav-number">1.</span> <span class="nav-text">过去的时间到底有多少？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#你真正利用过的时间都在做有意义的事吗？"><span class="nav-number">1.1.</span> <span class="nav-text">你真正利用过的时间都在做有意义的事吗？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#那么你浪费的时间都去哪了？"><span class="nav-number">1.2.</span> <span class="nav-text">那么你浪费的时间都去哪了？</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#你学到了那些知识？"><span class="nav-number">2.</span> <span class="nav-text">你学到了那些知识？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#你觉得你学到的那些知识可以使你收益终生？"><span class="nav-number">2.1.</span> <span class="nav-text">你觉得你学到的那些知识可以使你收益终生？</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GoPath文件结构如下"><span class="nav-number">1.</span> <span class="nav-text">GoPath文件结构如下</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#src目录"><span class="nav-number">1.1.</span> <span class="nav-text">src目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pkg目录"><span class="nav-number">1.2.</span> <span class="nav-text">pkg目录</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bin目录"><span class="nav-number">1.3.</span> <span class="nav-text">bin目录</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Go环境变量配置"><span class="nav-number">2.</span> <span class="nav-text">Go环境变量配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更多资料"><span class="nav-number">3.</span> <span class="nav-text">更多资料</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator"></div>

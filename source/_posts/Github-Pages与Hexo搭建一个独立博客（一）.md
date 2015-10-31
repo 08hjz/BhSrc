@@ -7,7 +7,7 @@ categories: 教程 #分类
 >*Hexo 是一个基于 Node.js 的静态博客程序, 可以方便的生成静态网页托管在 github 和 Heroku 上。
 
 ## 为什么要用静态博客？
-1.跨平台同步文件
+>1.跨平台同步文件
 2.系统简单易懂, 毫不臃肿, 方便改版
 3.众多第三方应用, 容易做自定义功能扩展
 4.纯静态, 极低的服务器压力
@@ -28,7 +28,7 @@ categories: 教程 #分类
 *  [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
 #### Windows：下载并安装git
-推荐使用cmderer，因为cmderer自带了msysgit使用更加方便.
+推荐使用cmder，因为cmderer自带了msysgit使用更加方便.
 * [cmder官网下载地址](http://cmderer.net/)
 - [cmder百度云下载地址](http://pan.baidu.com/s/1FjZum) 访问密码: `` qfdi ``
 
